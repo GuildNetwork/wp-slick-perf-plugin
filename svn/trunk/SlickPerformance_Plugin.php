@@ -142,7 +142,7 @@ class SlickPerformance_Plugin extends SlickPerformance_LifeCycle
         if ($siteCode) {
             $whichPages = $this->getOption('WhichPages', 'All');
             if ($whichPages == 'All' || has_tag('slick-perf')) {
-                $serverUrl = $this->getOption('ScriptUrl', 'https://poweredbyslick.com/e2/slick-perf.js');
+                $serverUrl = $this->getOption('ScriptUrl', 'https://poweredbyslick.com/e2/slick-perf.min.js');
                 $serverUrl = $serverUrl . '?site=' . $siteCode;
                 $buffer = preg_replace('/\<head\s*\>/i', '<head>' . "\n" . '<script src="' . $serverUrl . '"></script>' . "\n", $buffer);
             }

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Slick Performance
 Plugin URI: https://poweredbyslick.com/getting-started
-Version: 1.0.1
+Version: 1.0.2
 
 Author: Hivepoint, Inc.
 Author URI: https://poweredbyslick.com

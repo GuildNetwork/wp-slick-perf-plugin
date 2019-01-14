@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.0
 Tested up to: 4.9.8
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Improve page load performance using [Slick](https://poweredbyslick.com) performance on your pages.  For most sites that use advertising and other script-heavy content, this will significantly improve [Lighthouse](https://developers.google.com/web/tools/lighthouse/) performance scores.
 
@@ -37,3 +37,6 @@ We inject a small script at the top of your page.  This script regulates the exe
 
 = 1.0.1 =
 - Allow limitation to pages with slick-perf tag
+
+= 1.0.2 =
+- Moved to minified script
